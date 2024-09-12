@@ -37,12 +37,12 @@ window.addEventListener("keypress", (e) => {
 
 /* prevent button in the form to subnit the form */
 
-let allbtn = document.querySelectorAll("button");
-allbtn.forEach((button) => {
-  button.addEventListener("click", (e) => {
-    e.preventDefault();
-  });
-});
+// let allbtn = document.querySelectorAll("button");
+// allbtn.forEach((button) => {
+//   button.addEventListener("click", (e) => {
+//     e.preventDefault();
+//   });
+// });
 
 let allselects = document.querySelectorAll("select");
 allselects.forEach((select) => {
